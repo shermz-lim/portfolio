@@ -1,0 +1,22 @@
+.app-container {
+  width: 70%;
+  margin: 10vh auto;
+  font-size: 1.1rem;
+}
+
+.section {
+  padding-bottom: 4vh;
+}
+
+.section .section-title {
+  color: #445963;
+  font-size: 2rem;
+}
+
+.subsection {
+  margin: 10vh 0;
+}
+
+.subsection .subsection-title {
+  font-size: 1.3rem;
+}
