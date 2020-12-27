@@ -7,10 +7,12 @@ const Project = () => {
         <div className="subsection">
           <h4 className="subsection-title">
             Congestion Control Speciation in QUIC
+            <span className="date">Dec 2020 - PRESENT</span>
           </h4>
           <p>
-            Doing a research project on QUIC under the Undergraduate Research
-            Opportunity Program.
+            Currently doing a research project on the{' '}
+            <a href="https://en.wikipedia.org/wiki/QUIC">QUIC protocol</a> under
+            the Undergraduate Research Opportunity Program in NUS.
           </p>
         </div>
       </div>
