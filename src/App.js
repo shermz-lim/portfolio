@@ -1,17 +1,19 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './Navbar';
-import Experience from './Experience';
-import CP from './CP';
-import Project from './Project';
-import Teaching from './Teaching';
-import Home from './Home';
+import Navigation from './components/Navigation';
+import Experience from './components/Experience';
+import CP from './components/CP';
+import Project from './components/Project';
+import Teaching from './components/Teaching';
+import Home from './components/Home';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <div>
       <Router>
         <div>
-          <Navbar />
+          <Navigation />
           <Switch>
             <Route path="/experience">
               <Experience />

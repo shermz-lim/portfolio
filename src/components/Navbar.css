@@ -1,0 +1,13 @@
+.navigation a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1.2vh 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.navigation a:hover {
+  color: #63ccff;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
