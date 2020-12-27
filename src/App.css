@@ -6,6 +6,7 @@ p {
   width: 70%;
   margin: 10vh auto;
   font-size: 100%;
+  font-weight: 300;
 }
 
 .section {
@@ -13,8 +14,13 @@ p {
 }
 
 .section .section-title {
-  color: #445963;
+  color: #039be5;
   font-size: 1.8em;
+  font-weight: 600;
+}
+
+.section .section-desc {
+  font-style: italic;
 }
 
 .subsection {
@@ -23,6 +29,7 @@ p {
 }
 
 .subsection .subsection-title {
+  color: #445963;
   font-size: 1.2em;
   display: flex;
   align-items: center;
@@ -32,4 +39,32 @@ p {
 .subsection .subsection-title .date {
   margin: 0 28px;
   font-size: 0.6em;
+}
+
+.subsection .footnotes {
+  font-style: italic;
+  color: #006db3;
+}
+
+.social-icon {
+  font-size: 1.3em;
+  margin: 0 6px;
+}
+
+.github {
+  color: black;
+}
+
+.github:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+.linkedin {
+  color: rgb(42, 102, 188);
+}
+
+.linkedin:hover {
+  color: rgb(42, 102, 188);
+  opacity: 0.8;
 }

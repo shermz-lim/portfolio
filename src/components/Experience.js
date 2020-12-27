@@ -27,7 +27,7 @@ const Experience = () => {
             members on Rakuten Ichiba, Japan's largest ecommerce site.
           </p>
           <p className="footnotes">
-            Technologies I used: JavaScript, React, Redux, HTML, CSS, Git.
+            Technologies used: JavaScript, React, Redux, HTML, CSS, Git.
           </p>
         </div>
         <div className="subsection">

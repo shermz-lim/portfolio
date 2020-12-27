@@ -11,8 +11,10 @@ const Project = () => {
           </h4>
           <p>
             Currently doing a research project on the{' '}
-            <a href="https://en.wikipedia.org/wiki/QUIC">QUIC protocol</a> under
-            the Undergraduate Research Opportunity Program in NUS.
+            <a target="_blank" href="https://en.wikipedia.org/wiki/QUIC">
+              QUIC protocol
+            </a>{' '}
+            under the Undergraduate Research Opportunity Program in NUS.
           </p>
         </div>
       </div>

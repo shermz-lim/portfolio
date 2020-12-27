@@ -6,7 +6,12 @@
   transition: all 0.3s ease 0s;
 }
 
+.navigation a.brand {
+  color: #63ccff;
+}
+
 .navigation a:hover {
+  opacity: 0.8;
   color: #63ccff;
   text-decoration: none;
   transition: all 0.3s ease 0s;

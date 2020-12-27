@@ -1,4 +1,4 @@
-import { FaCode } from 'react-icons/fa';
+import { FaCode, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -29,7 +29,25 @@ const Home = () => {
           where I get to do a lot of that, and I am also a teaching assistant
           for the Data Structures and Algorithms module in NUS.
         </p>
+        <p>
+          You can also find me on:&nbsp;
+          <a
+            target="_blank"
+            href="https://github.com/shermz-lim"
+            className="github social-icon"
+          >
+            <FaGithub />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/shermzlim/"
+            className="linkedin social-icon"
+          >
+            <FaLinkedin />
+          </a>
+        </p>
       </div>
+      <hr />
     </div>
   );
 };
