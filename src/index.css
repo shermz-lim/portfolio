@@ -132,12 +132,12 @@ table {
 
 /* Global settings */
 html {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
