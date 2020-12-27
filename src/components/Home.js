@@ -11,7 +11,7 @@ const Home = () => {
       <div>
         <p>
           Hi! I am currently a sophomore majoring in Computer Science at the
-          National University of Singapore (NUS). I am also under the University
+          National University of Singapore (NUS). I am also in the University
           Scholars Program.
         </p>
         <p>
